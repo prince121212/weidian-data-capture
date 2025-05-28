@@ -130,3 +130,10 @@ weidian-data-capture/
 - 不同的店铺页面结构可能不同，可能需要调整解析逻辑
 - 采集大量数据时，程序会定期保存临时文件，防止意外中断导致数据丢失
 - 商品详情爬取时，每批次处理后会保存临时文件，支持断点续爬功能 
+
+
+
+完成本次任务的命令：
+```bash
+python batch_products_crawler.py --input data/items_all.xls --output data/items_all_details.xls
+```
