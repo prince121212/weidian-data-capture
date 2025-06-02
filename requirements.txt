@@ -5,4 +5,5 @@ pandas
 selenium
 webdriver-manager
 xlrd
-xlutils 
+xlutils
+openpyxl
